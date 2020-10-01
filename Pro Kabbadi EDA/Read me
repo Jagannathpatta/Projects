@@ -1,0 +1,31 @@
+Exploratory Data Analysis Pro Kabbadi all 7 seasons data.
+
+Watch these videos for batter understanding:
+    => https://youtu.be/Qif_nv-dHuo
+    => https://youtu.be/ouyLYqzfraM
+
+* Where this results can be help full :
+    => At auction were teams bid for players.
+    => To get insights of opponent teams.
+    
+* Record Holders : Created Different functions to get. functions takes N as input to return that no. of players info like (Id, Name, Score).
+    => Top raiders : who scored most in raids in a match.
+    => Top defenders : who scored most in tackles in a match.
+    => Top AllRounder : who scored most in both in a match.
+    
+* Players whole info. : A function that takes the player id as input and return the details like.
+    => Name
+    => Total matches played (shows experience)
+    => Stats of performance in all the teams that player played for(DataFrame).
+        => Team name ( from teams data file)
+        => no. of matches played ( from player data file)
+        => performance include successful and unsuccessful (raids and tackles)
+        => Visualization of Players performance in recent N matches.
+        
+* Visualization of Teams winning to loosing ratio in all pro kabbadi seasons.
+
+* Building a model for predicting wheather the combination of players will win or loos the match.
+
+* Visualization of Teams performance in recent N matches.
+
+* Visualization of comparing two Teams performance against each other in recent N matches.
